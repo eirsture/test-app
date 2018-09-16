@@ -28,7 +28,7 @@ componentDidMount() {
 renderEvents() {
   return this.state.events.map((event) => {
     return (
-      <div style={{}> 
+      <div> 
       <h3>{event.title}</h3>
       <img style={{width: '950px', height: '285px'}}
         src={event.cover} />
